@@ -2,6 +2,7 @@
 
 $variable = rand (0,10);
 echo "$variable";
+echo "<br>";
 if ($variable >= 0 and $variable < 5) {
     echo "Insuficiente";
 } elseif ($variable >= 5 and $variable < 6) {
