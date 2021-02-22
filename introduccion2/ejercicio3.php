@@ -25,8 +25,6 @@ switch ($variable){
     case 7:
         echo "Domingo";
         break;
-
-
-   }
+}
 
 ?>
