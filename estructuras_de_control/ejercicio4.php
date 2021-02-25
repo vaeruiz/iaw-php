@@ -1,6 +1,6 @@
 <?php
 
-$variable = rand (1,6);
+$variable = rand(1,6);
 echo "Ha salido $variable";
 echo "<br>";
 if ($variable == 1) {
