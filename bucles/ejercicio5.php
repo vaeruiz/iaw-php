@@ -11,6 +11,8 @@
         <tr>
             <?php
 
+            # Ejercicio hecho con la ayuda de Pedro José Salvador
+
                 for ($numero=1; $numero <= 10 ; $numero++) { 
                     echo "<tr>";
                     for ($i=0; $i <=10 ; $i++) { 

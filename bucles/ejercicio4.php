@@ -10,6 +10,9 @@
     <table border="1">
         
             <?php
+
+            # Ejercicio hecho con la ayuda de Pedro José Salvador
+            
                 $numero = rand(1, 10);
                 for ($i=0; $i <= 10 ; $i++) { 
                     $resultado = $numero*$i;
