@@ -1,15 +1,15 @@
 <?php
 
-// Declaración del array
+// Paso 1. Declaración del array
 $lista = array();
 
-// Inicialización del array
-for ($i = 0; $i < 10; $i++) {
-    $lista[$i] = rand(1,30);
+// Paso 2. Inicialización del array
+for ($i=0; $i < 10; $i++) { 
+    $lista[$i] = rand(1, 30);
 }
 
-// Imprimir array
-for ($i = 0; $i < 10; $i++) {
+// Paso 3. Imprimir el array
+for ($i=0; $i < 10; $i++) { 
     echo $lista[$i];
     echo "<br>";
 }
